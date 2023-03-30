@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?healthy,diet");
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004499;
+  }
+  
+  #result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
